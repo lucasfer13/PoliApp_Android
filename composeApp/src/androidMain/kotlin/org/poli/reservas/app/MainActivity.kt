@@ -1,7 +1,7 @@
 package org.poli.reservas.app
 
 //import App
-import MainScreen
+import App
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             YourAppTheme {
-                MainScreen()
+                App()
             }
         }
     }
@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun AppAndroidPreview() {
-    MainScreen()
+    App()
 }
 
 @Composable
@@ -41,6 +41,6 @@ fun ProfileScreen() {
 @Composable
 fun DefaultPreview() {
     YourAppTheme {
-        MainScreen()
+        App()
     }
 }
